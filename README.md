@@ -32,3 +32,21 @@ It includes basic operations like creating commits, managing branches, and worki
 
 - `git log --oneline`  
   Displays commit history in a shorter format.
+  ## 3. Working with Branches
+
+Branches allow multiple versions of a project to be developed independently.
+
+- `git branch`  
+  Lists all the branches present in the repository.
+
+- `git branch <branch-name>`  
+  Creates a new branch.
+
+- `git checkout <branch-name>`  
+  Moves the working directory to another branch.
+
+- `git checkout -b <branch-name>`  
+  Creates a new branch and switches to it immediately.
+
+- `git branch -d <branch-name>`  
+  Deletes a branch that is no longer needed.

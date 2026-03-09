@@ -50,3 +50,16 @@ Branches allow multiple versions of a project to be developed independently.
 
 - `git branch -d <branch-name>`  
   Deletes a branch that is no longer needed.
+  ## 4. Connecting with GitHub
+
+- `git remote -v`  
+  Shows the remote repository linked with the local project.
+
+- `git remote add origin <repository-url>`  
+  Connects the local repository with a GitHub repository.
+
+- `git push`  
+  Uploads commits from the local machine to GitHub.
+
+- `git pull`  
+  Downloads updates from the remote repository.
